@@ -18,9 +18,6 @@ while(x<=10):
 		score1=score1+1
 	elif(c=="rock" and n=="paper"):
 		score2=score2+1
-	else:
-		score1=score1
-		score2=score2
 	x=x+1
 print(score1)
 print(score2)
